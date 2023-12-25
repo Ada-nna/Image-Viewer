@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body{
+    background: url(./images/pexels-moose-photos-1037992.jpg) center/cover no-repeat fixed;
+    
+}
+
+.texts{
+    text-align: center;
+    
+}
+
+h1{
+    font-size: 70px;
+    margin-top: 10px;
+    letter-spacing: 1px;
+}
+span{
+    font-weight: 900;
+}
+
+h2{
+    font-size: 25px;
+    font-weight: 800;
+    color: #F26CA7;
+    text-shadow: 1px 1px 3px white;
+    margin-left: 13px;
+}
+
+.imageContainer{
+    box-sizing: border-box;
+    text-align: center;
+    align-items: center;
+    border: 20px solid #ffffff;
+    border-radius: 50px;
+    box-shadow: 5px 5px 15px 10px rgb(146, 145, 145);
+    height: 60vh;
+    width: 40vw;
+    display: flex;
+    justify-content: center;
+    margin-left: 630px;
+    margin-top: 80px;
+    background: url(./images/1.jpg) center/contain no-repeat;
+    position: relative;
+    
+}
+
+
+.btn-left{
+    font-size: 7em;
+    position: absolute;
+    left: 50px;
+    cursor: pointer;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px black;
+}
+
+.btn-right{
+    font-size: 7em;
+    position: absolute;
+    right: 50px;
+    cursor: pointer;
+    color: #ffffff;
+    text-shadow: 2px 2px 5px black;
+}
